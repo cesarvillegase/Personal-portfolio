@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: marcellus-font;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width:100%;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45;
+    padding-left: 8%;
+    padding-right: 8%;
+}
