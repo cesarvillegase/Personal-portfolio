@@ -231,8 +231,21 @@ footer p:nth-child(2){
     background: #2ec2c9;
     border-radius: 50%;
     margin:  22px 10px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
 }
 .social img{
     height: auto;
     width: 30px;
+}
+.end{
+    position: absolute;
+    color: white;
+    bottom: 35px;
+    font-size: 14px;
 }
